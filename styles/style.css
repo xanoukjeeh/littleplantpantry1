@@ -367,6 +367,7 @@ nav .menu div:nth-of-type(2) svg {
   
 .blaadje li {
     text-align: end;
+    color:#311d0d;
     margin-top: -24px;
     margin-left: 121px;
     margin-right: 93px;
@@ -402,20 +403,79 @@ nav .menu div:nth-of-type(2) svg {
     width: 100%;
     z-index: -2;
 }
-
-.ourproducts section:first-of-type div img {
-    width: 10%;
-    z-index: 1;
-}
-
-.ourproducts section:first-of-type div {
-    display: flex;
-}
-
-
-.ourproducts section:first-of-type div>p {
+/* text en foto */
+.ourproducts section:first-of-type div:first-of-type p {
     margin: 0;
-    width: 25%;
+    color: #311d0d;
+    position: absolute;
+    left: 182px;
+    top: 234px;
+    text-align: center;
+    width: 30%;
+    /* z-index: 2; */
+}
+
+.ourproducts section:first-of-type div:first-of-type img:first-of-type{
+    width: 20%;
+    position: absolute;
+    left: 100px;
+    top: 229px;
+    z-index: 2;
+}
+/* text en foto 2 */
+.ourproducts section:first-of-type div:nth-of-type(2) p {
+    margin: 0;
+    color: #311d0d;
+    position: absolute;
+    left: 76px;
+    top: 317px;
+    text-align: center;
+    width: 30%;
+    /* z-index: 2; */
+}
+.ourproducts section:first-of-type div:nth-of-type(2) img{
+    width: 20%;
+    position: absolute;
+    left: 200px;
+    top: 317px;
+    z-index: 2;
+}
+/* text en foto 3 */
+.ourproducts section:nth-of-type(2) div:first-of-type p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #311d0d;
+    position: absolute;
+    left: 100px;
+    top: 11px;
+    text-align: center;
+}
+
+.ourproducts section:nth-of-type(2) div:first-of-type img:first-of-type{
+    width: 20%;
+    position: absolute;
+    left: 100px;
+    top: 175px;
+    z-index: 2;
+}
+ /* text en foto 4*/ 
+ .ourproducts section:nth-of-type(2) div:nth-of-type(2) p {
+    margin: 0;
+    margin-right: 70px;
+    margin-left: 74px;
+    color: #311d0d;
+    position: absolute;
+    left: -27px;
+    top: 245px;
+    /* text-align: center; */
+    width: 20%;
+}
+.ourproducts section:nth-of-type(2) div:nth-of-type(2) img{
+    width: 20%;
+    position: absolute;
+    left: 200px;
+    top: 262px;
+    z-index: 2;
 }
 
 .ourproducts section:first-of-type h2 {
@@ -423,30 +483,10 @@ nav .menu div:nth-of-type(2) svg {
     max-width: fit-content;
     color: #e9e4cf;
     background-color: #6cb82e;
-    padding: 1em 3.57em;
+    padding: 1em 4.57em;
     text-align: center;
     margin: 7em auto 1em auto
 }
-
-.ourproducts section:nth-of-type(2) h2 {
-    position: relative;
-    max-width: fit-content;
-    color: #e9e4cf;
-    background-color: #6cb82e;
-    padding: 1em 3.5em;
-    text-align: center;
-    margin: 5em auto 1em auto;
-}
-
-.ourproducts section:nth-of-type(2) p {
-    position: relative;
-    max-width: fit-content;
-    color: #311d0d;
-    padding: 1em 3.5em;
-    text-align: center;
-    margin: 9.5em 1em 1em 1em;
-}
-
 .ourproducts section svg {
     position: absolute;
     top: 80px;
@@ -458,9 +498,28 @@ nav .menu div:nth-of-type(2) svg {
     z-index: -1;
 }
 
+.ourproducts section:nth-of-type(2) h2 {
+    position: relative;
+    max-width: fit-content;
+    color: #e9e4cf;
+    background-color: #6cb82e;
+    padding: 1em 5.05em;
+    text-align: center;
+    margin: 4.5em auto 1em auto;
+}
+
+.ourproducts section:nth-of-type(2) p {
+    position: relative;
+    max-width: fit-content;
+    color: #311d0d;
+    padding: 1em 3.5em;
+    text-align: center;
+    margin: 9.5em 1em 1em 1em;
+}
+
 .ourproducts section:nth-of-type(2) svg {
     position: absolute;
-    top: 50px;
+    top: 26px;
     left: 0;
     right: 0;
     margin-left: auto;
