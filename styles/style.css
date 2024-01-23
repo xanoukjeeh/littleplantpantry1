@@ -190,7 +190,7 @@ nav .menu div:nth-of-type(2) svg {
     color: #311d0d;
     padding: 1em 3.5em;
     text-align: center;
-    margin: -1.5em 1em 1em 1em;
+    margin: 0.5em 1em 1em 1em;
 
 }
 
@@ -203,26 +203,6 @@ nav .menu div:nth-of-type(2) svg {
     text-align: center;
     margin: 7em auto 1em auto
 }
-
-.index section:nth-of-type(2) h2 {
-    position: relative;
-    max-width: fit-content;
-    color: #e9e4cf;
-    background-color: #6cb82e;
-    padding: 1em 3.5em;
-    text-align: center;
-    margin: 5.5em auto 1em auto;
-}
-
-.index section:nth-of-type(2) p {
-    position: relative;
-    max-width: fit-content;
-    color: #311d0d;
-    padding: 1em 3.5em;
-    text-align: center;
-    margin: -1.5em 1em 1em 1em;
-}
-
 .index section svg {
     position: absolute;
     top: 80px;
@@ -234,9 +214,29 @@ nav .menu div:nth-of-type(2) svg {
     z-index: -1;
 }
 
+.index section:nth-of-type(2) h2 {
+    position: relative;
+    max-width: fit-content;
+    color: #e9e4cf;
+    background-color: #6cb82e;
+    padding: 1em 3.5em;
+    text-align: center;
+    margin: 4.5em auto 1em auto;
+}
+
+.index section:nth-of-type(2) p {
+    position: relative;
+    max-width: fit-content;
+    color: #311d0d;
+    padding: 1em 3.5em;
+    text-align: center;
+    margin: -1.5em 1em 1em 1em;
+}
+
+
 .index section:nth-of-type(2) svg {
     position: absolute;
-    top: 50px;
+    top: 26px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -246,62 +246,14 @@ nav .menu div:nth-of-type(2) svg {
 }
 
 /* OUR VALUES */
-.ourvalues section {
-    position: relative;
-    display: block;
-    text-align: center;
-    max-height: max-content;
-    overflow: hidden;
-    height: 452px;
-    width: 376px;
-}
-
 .ourvalues section img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: -2;
+    
 }
-
-.ourvalues section:first-of-type p {
-    position: relative;
-    max-width: fit-content;
-    color: #311d0d;
-    padding: 1em 3.5em;
-    text-align: center;
-    margin: -1.5em 1em 1em 1em;
-}
-
-.ourvalues section:nth-of-type(2) p {
-    position: relative;
-    max-width: fit-content;
-    color: #311d0d;
-    padding: 1em 3.5em;
-    text-align: center;
-    margin: -1.5em 1em 1em 1em;
-}
-
-.ourvalues section:first-of-type h2 {
-    position: relative;
-    max-width: fit-content;
-    color: #e9e4cf;
-    background-color: #6cb82e;
-    padding: 1em 3.32em;
-    text-align: center;
-    margin: 7em auto 1em auto
-}
-
-.ourvalues section:nth-of-type(2) h2 {
-    position: relative;
-    max-width: fit-content;
-    color: #e9e4cf;
-    background-color: #6cb82e;
-    padding: 1em 3.67em;
-    text-align: center;
-    margin: 5.5em auto 1em auto;
-}
-
 .ourvalues section svg {
     position: absolute;
     top: 80px;
@@ -313,15 +265,79 @@ nav .menu div:nth-of-type(2) svg {
     z-index: -1;
 }
 
+.ourvalues section:first-of-type {
+    position: relative;
+    display: block;
+    text-align: center;
+    max-height: max-content;
+    overflow: hidden;
+    height: 452px;
+    width: 376px;
+}
+.ourvalues section:first-of-type h2 {
+    position: relative;
+    max-width: fit-content;
+    color: #e9e4cf;
+    background-color: #6cb82e;
+    padding: 1em 3.32em;
+    text-align: center;
+    margin: 7em auto 1em auto
+}
+.ourvalues section:first-of-type p {
+    position: relative;
+    max-width: fit-content;
+    color: #311d0d;
+    padding: 1em 3.5em;
+    text-align: center;
+    margin: -1.5em 1em 1em 1em;
+}
+
+.ourvalues section:nth-of-type(2){
+    position: relative;
+    display: block;
+    text-align: center;
+    max-height: max-content;
+    overflow: hidden;
+    height: 396px;
+    width: 376px;
+}
+
+.ourvalues section:nth-of-type(2) h2 {
+    position: relative;
+    max-width: fit-content;
+    color: #e9e4cf;
+    background-color: #6cb82e;
+    padding: 1em 3.67em;
+    text-align: center;
+    margin: 4.5em auto 1em auto;
+}
+.ourvalues section:nth-of-type(2) p {
+    position: relative;
+    max-width: fit-content;
+    color: #311d0d;
+    padding: 1em 3.5em;
+    text-align: center;
+    margin: -1em 1em 1em 1em;
+}
 .ourvalues section:nth-of-type(2) svg {
     position: absolute;
-    top: 50px;
+    top: 26px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     width: 66%;
     z-index: -1;
+}
+
+.ourvalues section:nth-of-type(3) {
+    position: relative;
+    display: block;
+    text-align: center;
+    max-height: max-content;
+    overflow: hidden;
+    height: 452px;
+    width: 376px;
 }
 
 .ourvalues section:nth-of-type(3) h2 {
@@ -331,22 +347,43 @@ nav .menu div:nth-of-type(2) svg {
     background-color: #6cb82e;
     padding: 1em 4.1em;
     text-align: center;
-    margin: 7em auto 1em auto;
+    margin: 4.5em auto 1em auto;
+}
+.ourvalues section:nth-of-type(3) svg {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    z-index: -1;
 }
 
-.ourvalues section:nth-of-type(3) ul{
-    margin: 0 5px 0 3px;
-    line-height: 1.5;
+
+.blaadje {
+    list-style-type: none; /* Verwijder de standaard lijststijl */
+}
+  
+.blaadje li {
+    text-align: end;
+    margin-top: -24px;
+    margin-left: 121px;
+    margin-right: 93px;
+    margin-bottom: 25px;
     font-family: "omnes-semicond", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
-
-.ourvalues section:nth-of-type(3) ul .blaadje {
-    list-style-image: url(img/listblad-01.svg);
+  
+.blaadje li img:first-of-type {
+    width: 28px;
+    height: auto;
+    position: relative;
+    top: 19px;
+    left: -41px;
     z-index: 2;
 }
-
 /* OUR PRODUCTS */
 .ourproducts section {
     position: relative;
