@@ -49,7 +49,7 @@ p {
     /* menu links?"right" voor "left" +  pas ook aan bij "nav input:checked ~ .menu". + draai nav en  logo om in HTML  */
     right: -355px;
     background: transparent;
-    width: 375px;
+    width: 376px;
     height: 100%;
     padding-top: 5em;
     z-index: 1;
