@@ -552,7 +552,7 @@ nav .menu div:nth-of-type(2) svg {
     color: #311d0d;
     padding: 1em 3.5em;
     text-align: center;
-    margin: -1.5em 1em 1em 1em;
+    margin: -0.5em 1em 1em 1em;
 }
 
 .aboutus section:first-of-type h2 {
@@ -582,7 +582,7 @@ nav .menu div:nth-of-type(2) svg {
     background-color: #6cb82e;
     padding: 1em 3.07em;
     text-align: center;
-    margin: 5.5em auto 1em auto;
+    margin: 4.5em auto 1em auto;
 }
 
 .aboutus section:nth-of-type(2) p {
@@ -591,10 +591,10 @@ nav .menu div:nth-of-type(2) svg {
     color: #311d0d;
     padding: 1em 3.5em;
     text-align: center;
-    margin: -1.5em 1em 1em 1em;
+    margin: -0.5em 1em 1em 1em;
 }
 
-.aboutus section svg {
+.aboutus section svg:first-of-type {
     position: absolute;
     top: 80px;
     left: 0;
@@ -607,7 +607,7 @@ nav .menu div:nth-of-type(2) svg {
 
 .aboutus section:nth-of-type(2) svg {
     position: absolute;
-    top: 50px;
+    top: 27px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -624,23 +624,58 @@ nav .menu div:nth-of-type(2) svg {
     height: 452px;
     width: 376px;
 }
-.aboutus section:nth-of-type(3) img:first-of-type{
-    width: 10%;
+.aboutus section:nth-of-type(3) svg{
+    position: absolute;
+    top: 27px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    z-index: -1;
+}
+.aboutus section:nth-of-type(3) p:first-of-type {
+    position: absolute;
+    left: 0px;
+    top: 228px;
+    color: #311d0d;
+    padding: 1em 3.5em;
+    text-align: center;
+    margin: -1.5em 1em 1em 1em;
+}
+.aboutus section:nth-of-type(3) p:nth-of-type(2) {
     position: absolute;
     left: 40px;
-    bottom: 40px;
-
+    top: 320px;
+    color: #311d0d;
+    padding: 1em 3.5em;
+    text-align: center;
+    margin: -1.5em 1em 1em 1em;
+}
+.aboutus section:nth-of-type(3) h2 {
+    position: relative;
+    max-width: fit-content;
+    color: #e9e4cf;
+    background-color: #6cb82e;
+    padding: 1em 2.7em;
+    text-align: center;
+    margin: 4.5em auto 1em auto;
+}
+.aboutus section:nth-of-type(3) img:first-of-type{
+    width: 12%;
+    position: absolute;
+    top: 168px;
+    left: 159px;
     z-index: 2;
 
 }
 .aboutus section:nth-of-type(3) img:nth-of-type(2){
     width: 10%;
     position: absolute;
-    left: 40px;
-    bottom: 40px;
+    top: 266px;
+    left: 168px;
     z-index: 2;
 }
-
 
 .st0 {
     fill: #D9EAEA;
